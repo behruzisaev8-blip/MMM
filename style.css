@@ -1,0 +1,125 @@
+.A{
+     text-align: center;
+    background-color: lightskyblue;
+    border: 3px solid red;
+    border-radius: 9999px;
+}
+
+h3{
+    color: green;
+}
+.B{
+    text-align: center;
+    background-color: yellow;
+}
+.images {
+  display: flex;       /* чтобы картинки были в ряд */
+  gap: 12px;           /* расстояние между ними */
+}
+
+.images1 {
+  width: 50%;          /* половина ширины контейнера */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.images2 {
+  width: 50%;          /* тоже половина ширины */
+  border-radius: 8px;
+  object-fit: cover;
+}
+h2{
+    text-align: center;
+    background-color: yellow;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.video iframe{
+    max-width: 100%;
+    border-radius: 8px;
+}
+.form-section {
+  margin: 20px 0;
+  text-align: left;       /* всё слева */
+}
+
+.form-section .form-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.form-section .choices {
+  display: flex;
+  flex-direction: column; /* кнопки одна под другой */
+  gap: 6px;
+}
+
+.form-section label {
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.form-section input[type="radio"] {
+  margin-right: 6px;
+}
+
+/* Кнопка */
+.form-section button {
+  margin-top: 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #0c57c7;
+}
+.Vag{
+  color: green;
+}
+.Vgo{
+  text-align: center;
+  background-color: yellow;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+.green{
+  background-color: green;
+  color: aliceblue;
+}
+.blue{
+  background-color: mediumblue;
+  color: aliceblue;
+}
+.red{
+  background-color: red;
+  color: aliceblue;
+}
+.reed{
+  background-color: red;
+  color: aliceblue;
+}
+td{
+  background-color: black;
+  color: aliceblue;
+}
+.qwe{
+  color: brown;
+}
